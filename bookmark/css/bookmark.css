@@ -1,0 +1,80 @@
+body {
+    background: #d5d5d5 !important;
+}
+
+main {
+    margin: 3vh auto;
+    padding: 1.5rem 0 0;
+    outline border-radius: .25rem;
+    animation: fly-in-from-left .5s 1s ease both;
+}
+
+.form-bookmark {
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px #aaa;
+    background: white;
+    margin: 0 1rem 1rem;
+    border-radius: 3px;
+}
+
+.card {
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px #aaa;
+    background: white;
+    margin: 0 1rem 1rem;
+    border-radius: 3px;
+    transform: scale(.75);
+    transition: transform .3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 2px 3px 2px #aaa;
+    transform: scale(1);
+}
+
+.card span {
+    color: #002A68;
+}
+
+.card span:hover {
+    color: #11aaff;
+}
+
+h1 {
+    font-size: 2rem !important;
+    font-weight: 200;
+}
+
+strong {
+    font-weight: 300;
+    color: #539D00;
+}
+
+h2 {
+    font-size: .9rem !important;
+    line-height: 2.5;
+    color: gray;
+    font-weight: 400;
+}
+
+.map {
+    height: 12rem;
+    background: whitesmoke;
+    margin: .5rem -1.5rem 0 -1.5rem;
+    padding: 20px 15px;
+}
+
+@keyframes fly-in-from-left {
+    from {
+        transform: translateY(15rem) rotate(15deg);
+        opacity: 0;
+    }
+}
+
+@keyframes fly-in-from-right {
+    from {
+        transform: translateY(15rem) rotate(-15deg);
+        opacity: 0;
+    }
+}

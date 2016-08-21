@@ -1,0 +1,114 @@
+﻿#the-carousel {
+	margin-top: 60px;
+}
+/* Style css for about me, service */
+#row1 {
+	background: #291a39;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.intro {
+	background: #673ab7;
+	color: rgba(255,255,255,0.87);
+	padding: 5px 5px 5px 23px;
+	margin-left: 15px;
+	border-radius: 3px;
+	margin-top: -88px;
+ 	margin-bottom: 30px;
+}
+
+/*End style*/
+
+/* Style css for portfolio*/
+
+#row2 {
+	background-color: #18161a;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#projects h1 {
+	color: rgba(255,255,255,0.87);
+	margin-bottom: 30px;
+}
+
+.projects-grid div a {
+	height: 150px;
+	display: block
+}
+
+.projects-grid div{
+	margin-bottom: 20px;
+}
+
+
+.pink {
+	background-color: #e91e63;
+  	border-color: #e91e63;
+}
+
+.orange {
+	background-color: #f44336;
+    border-color: #f44336;
+}
+
+.darkyellow {
+	background-color: #ffb300;
+  	border-color: #ffb300;
+}
+
+.darkgrey {
+	background-color: #212121;
+  	border-color: #212121;
+}
+
+.lightgrey {
+	background-color: #ececec;
+  	border-color: #ececec;
+}
+
+/*End style for portfolio*/
+
+/*Style css for contact*/
+
+#row3 {
+	background: #291A39;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#contact {
+	background: #673ab7;
+	color: rgba(255,255,255,0.87);
+	border-radius: 3px;
+}
+
+#contact > h2 {
+  	border-radius: 3px 3px 0 0;
+  	background: #8e24aa;
+  	padding: 20px;
+ 	margin: -20px -15px 10px -15px;
+}
+
+#contact button {
+	margin-right: 15px
+}
+/*End style*/
+
+/*Style css for footer*/
+#row4 {
+	color: rgba(255,255,255,0.87);
+	background: #18161A;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+/*End style*/
